@@ -1,9 +1,9 @@
 const sentence = "hello there from lighthouse labs";
 
-let x = 500; // start typing at 1000ms
+let x = 0; // start typing at 0ms
 for (const char of sentence) {
 
-  setTimeout(() => { // first letter starts at x = 500 and add x + 105 every next letter.
+  setTimeout(() => { // first letter starts at x = 0 and add x + 105 every next letter.
     process.stdout.write(char);
   }, x);
 
